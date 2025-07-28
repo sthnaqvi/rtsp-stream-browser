@@ -1,0 +1,95 @@
+{
+  "name": "rtsp-stream-browser",
+  "version": "1.0.0",
+  "description": "A modern, real-time RTSP to HLS streaming application that allows you to stream RTSP cameras and IP cameras directly in your web browser. Built with Node.js, Express, and FFmpeg for high-performance video transcoding.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "debug": "DEBUG=true node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"No linter configured\" && exit 0",
+    "format": "echo \"No formatter configured\" && exit 0"
+  },
+  "keywords": [
+    "rtsp",
+    "streaming",
+    "video",
+    "hls",
+    "ffmpeg",
+    "camera",
+    "ip-camera",
+    "surveillance",
+    "live-streaming",
+    "web-streaming",
+    "video-transcoding",
+    "real-time",
+    "nodejs",
+    "express",
+    "javascript",
+    "video-player",
+    "streaming-server",
+    "cctv",
+    "security-camera",
+    "video-broadcasting",
+    "media-server",
+    "video-processing",
+    "web-video",
+    "browser-streaming",
+    "rtsp-client",
+    "hls-server",
+    "video-converter",
+    "streaming-platform",
+    "video-api",
+    "camera-streaming"
+  ],
+  "author": {
+    "name": "Sayed Tauseef Haider Naqvi",
+    "email": "tauseef.naqvi786@gmail.com",
+    "url": "https://github.com/sthnaqvi"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sthnaqvi/rtsp-stream-browser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sthnaqvi/rtsp-stream-browser/issues"
+  },
+  "homepage": "https://github.com/sthnaqvi/rtsp-stream-browser#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "ffmpeg-static": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "files": [
+    "index.js",
+    "stream_manager.js",
+    "public/",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
